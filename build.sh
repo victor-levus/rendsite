@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+pip install pipenv
+
 pipenv shell
 
 pipenv install
