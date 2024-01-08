@@ -4,6 +4,8 @@ set -o errexit
 
 poetry install
 
+pipenv shell
+
 pipenv install
 
 python manage.py collectstatic --no-input
