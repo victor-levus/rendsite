@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rendsite"
+name = "database"
 version = "0.1.0"
 description = ""
 authors = ["Victor Umedum <victorumedum@gmail.com>"]

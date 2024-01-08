@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+poetry install
+
 pip install pipenv
 
 pipenv shell
