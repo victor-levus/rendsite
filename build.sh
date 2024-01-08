@@ -4,11 +4,5 @@ set -o errexit
 
 poetry install
 
-pip install pipenv
-
-pipenv shell
-
-pipenv install
-
 python manage.py collectstatic --no-input
 python manage.py migrate

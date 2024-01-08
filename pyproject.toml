@@ -12,6 +12,19 @@ dj-database-url = "^2.1.0"
 psycopg2-binary = "^2.9.9"
 whitenoise = {extras = ["brotli"], version = "^6.6.0"}
 gunicorn = "^21.2.0"
+mysqlclient = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+django-cors-headers = "*"
+pillow = "*"
+waitress = "*"
+django-debug-toolbar = "*"
+tk-tools = "*"
+psycopg2 = "*"
+psycopg = "*"
+sqlalchemy = "*"
 
 
 [build-system]
